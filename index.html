@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petista</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">petista</div>
+            <div class="barra-de-info">13/13/3013 13:13 PM São Janeiro</div>
+            <div class="link">Alistar-se</div>
+        </div>
+
+        <div class="hero-section">
+            <div class="copy">
+                <div class="row row-1">
+                    <div></div>
+                    <div class="h1">GATINHOS</div>
+                    <div class="p">Desde 2023&copy;</div>
+                    </div>
+                    <div class="row row-2">
+                        <div class="h1">UNI-VOS</div>
+                        <div></div>
+                    </div>
+                    <div class="row row-3">
+                        <div></div>
+                        <div class="h1">URSAL&reg;</div>
+                        <div class="bolsonaro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NÃO CONFIE NOS CAMISA VERDE E AMARELO REPRESENTANTES DO B0LS0NAR0-3000 ESCONDA-SE EM UM ABRIGO IMEDIATAMENTE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spline">
+        <iframe src="https://my.spline.design/3dtextcopy-eb707fd6eea05ceed5d78f331048a25a/" 
+        frameborder="0"
+        width="100%"
+        height="100%"
+        ></iframe>
+    </div>
+    <div class="pre-loader">
+        <div class="content">
+            <div class="text">Não confie no <span><span id="verde">Verde</span> e <span id="amarelo">Amarelo</span></span></div>
+            <div class="loader"></div>
+        </div>
+    </div>
+    <script>
+        gsap.from(".text", 0.8, {
+            y:40,
+            opacity:0,
+            ease:"power2.inOut",
+            delay: 1,
+        });
+
+        gsap.from(".loader", 2, {
+            width: 0,
+            ease: "power4.inOut",
+            delay: 2,
+        });
+
+        gsap.to(".pre-loader", 2, {
+            top: "-100%",
+            ease: "power4.inOut",
+            delay: 4,
+        });
+
+        gsap.from(".row", 0.9, {
+            y:50,
+            opacity: 0,
+            ease: "power4.inOut",
+            delay: 4.5,
+            stagger: {
+                amount: 0.3,
+            }
+        });
+    </script>
+</body>
+</html>

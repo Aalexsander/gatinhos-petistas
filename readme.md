@@ -14,14 +14,15 @@ Escolhi o objeto "estrela", foi aí que passei maior parte do tempo texturizando
 
 No fim deu tudo certo e esse foi o [resultado](https://my.spline.design/3dtextcopy-eb707fd6eea05ceed5d78f331048a25a/)
 
-O resto do código foi como esperado muito tranquilo.
-Básico de html e css.
+O resto do código foi como esperado. Tranquilo, básico de html e css.
 
 Como eu usei um arquivo 3D que tecnicamente importa da web, o que leva tempo. Fiz uma linha de javascript com GSAP pra criar um ```preloader```. Que é como se fosse uma tela de carregamento. Pra garantir que tudo está pronto nos devidos lugares até o cliente ter carregado.
 
-Vou estar deixando aqui o que eu gostaria de deixar aqui pequenos "destaques" como o import e a transição do ```preloader```
+No total o tempo para fazer o site foi entre 3~4 horas. Sem contar com as vezes de ter que sair cuidar dos gatos da vida real e afazeres da vida pessoal.
 
+Vou estar deixando aqui o que eu gostaria de dizer "pequenos destaques" como o import e a transição do ```preloader```
 
+```(O site NÃO é responsivo e tecnicamente ainda está em andamento. Pretendo voltar e polir ele futuramente. Quem sabe torna-lo algo real)```
 
 ```html
 <iframe src="https://my.spline.design/3dtextcopy-eb707fd6eea05ceed5d78f331048a25a/">

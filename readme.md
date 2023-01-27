@@ -1,17 +1,11 @@
 <h1 align="center">Gatinhos Petistas</h1>
 
-<img src="https://cdn.discordapp.com/attachments/417022571595169794/1068434721639497808/image.png">
+<img src="https://pbs.twimg.com/media/E4SMu0KWEBAwlJs?format=jpg&name=large">
 
 <div class="section">
 <p align="center">Projeto Gatinho Petistas é uma pequena e até mesmo micro landing page. Que surgiu mais de uma brincadeira boba se eu conseguiria fazer em uma madrugada.</p>
 </div>
-<style> 
-    .section {
-        font-size:85%;
-        padding-top: 3px;
-        padding-bottom: 12px;
-    }
-</style>
+
 
 ## Relatório de como foi o código 🍜
 

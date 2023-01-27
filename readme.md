@@ -3,7 +3,7 @@
 <img src="https://pbs.twimg.com/media/E4SMu0KWEBAwlJs?format=jpg&name=large">
 
 <div class="section">
-<p align="center">Projeto Gatinho Petistas é uma pequena e até mesmo micro landing page. Que surgiu mais de uma brincadeira boba se eu conseguiria fazer em uma madrugada.</p>
+<p align="center">Projeto Gatinhos Petistas é uma pequena e até mesmo micro landing page. Que surgiu mais de uma brincadeira boba se eu conseguiria fazer em uma madrugada.</p>
 </div>
 
 

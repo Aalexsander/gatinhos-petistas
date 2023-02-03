@@ -9,18 +9,18 @@
 
 ## Relatório de como foi o código 🍜
 
-Único processo que foi meio trabalhoso foi fazer a estrela pois demorei pra achar um site ou software para exportar como iframe sem me preocupar de texturizar e todo o processo ardoso que é a modelagem 3D. Por sorte encontrei o [Spline](https://spline.design/).  
-Escolhi o objeto "estrela", foi aí que passei maior parte do tempo texturizando e mudando cada objeto de luz cada degradê de ponto de cor.
+Único processo que foi meio trabalhoso foi fazer a estrela. Pois demorei pra achar um site ou software para exportar como iframe sem me preocupar de texturizar e todo o processo ardoso que é a modelagem 3D. Por sorte encontrei o [Spline](https://spline.design/).  
+Escolhi o objeto "estrela", foi aí que passei maior parte do tempo texturizando e mudando cada objeto de luz de cada degradê de ponto de cor.
 
 No fim deu tudo certo e esse foi o [resultado](https://my.spline.design/3dtextcopy-eb707fd6eea05ceed5d78f331048a25a/)
 
 O resto do código foi como esperado. Tranquilo, básico de html e css.
 
-Como eu usei um arquivo 3D que tecnicamente importa da web, o que leva tempo. Fiz uma linha de javascript com GSAP pra criar um ```preloader```. Que é como se fosse uma tela de carregamento. Pra garantir que tudo está pronto nos devidos lugares até o cliente ter carregado.
+Como eu usei um arquivo 3D que tecnicamente ```exporta``` e ```importa``` da web, o que leva tempo. Fiz uma linha de javascript com GSAP pra criar um ```preloader```. Que é como se fosse uma tela de carregamento. Pra garantir que tudo está pronto nos devidos lugares até o cliente ter carregado.
 
 No total o tempo para fazer o site foi entre 3~4 horas. Sem contar com as vezes de ter que sair cuidar dos gatos da vida real e afazeres da vida pessoal.
 
-Vou estar deixando aqui o que eu gostaria de dizer "pequenos destaques" como o import e a transição do ```preloader```
+Vou estar deixando aqui o que eu gostaria de chamar de "pequenos destaques" como o import e a transição do ```preloader```
 
 ```(O site NÃO é responsivo e tecnicamente ainda está em andamento. Pretendo voltar e polir ele futuramente. Quem sabe torna-lo algo real)```
 
